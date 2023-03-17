@@ -40,5 +40,5 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
-        script: docker-pull.sh
+        script: bash docker-pull.sh
         
