@@ -1,0 +1,15 @@
+version: '3.6'
+
+services:
+  web:
+    image: localhost/mynginx:latest
+    ports:
+      - 8080:80
+      - 9090:90
+    volumes:
+      - ./nginx-html:/usr/share/nginx/html
+      - ./conf:/etc/nginx/conf.d
+
+volumes:
+  nginx-html:
+  conf:
