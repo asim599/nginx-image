@@ -26,5 +26,5 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
-        script: bash /root/nginx-image/build-image.sh
+        script: bash script.sh
         
