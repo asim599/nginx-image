@@ -5,8 +5,5 @@ services:
     image: localhost:5000/mynginx:latest
     ports:
       - 8080:80
-    volumes:
-      - ./conf:/etc/nginx/conf.d
 
-volumes:
-  conf:
+
